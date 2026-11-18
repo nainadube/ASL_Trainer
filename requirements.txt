@@ -1,4 +1,4 @@
-# Core Dependencies for SignSense AI
+# Core Dependencies for ASL Trainer
 numpy
 pandas
 matplotlib

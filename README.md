@@ -1,17 +1,17 @@
-# SignSense AI 🤟
+# ASL Trainer 🤟
 
-**SignSense AI** is an intelligent Sign Language Recognition system designed to recognize and interpret sign language gestures using computer vision and deep learning.
+**ASL Trainer** is an intelligent Sign Language Recognition system designed to recognize and interpret American Sign Language (ASL) gestures using computer vision and deep learning.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-SignSense-AI/
+ASL_Trainer/
 │
 ├── dataset/            # Raw and processed gesture datasets
 ├── notebooks/          # Jupyter notebooks for experiments & exploration
-│   └── day1_dataset_exploration.ipynb
+│   └── 01_dataset_exploration.ipynb
 ├── models/             # Trained models, checkpoints, and weights
 ├── src/                # Core source code and utilities
 ├── app/                # Application entry points (e.g., Streamlit, FastAPI, or GUI)
@@ -23,10 +23,16 @@ SignSense-AI/
 
 ## 🚀 Getting Started
 
-### 1. Prerequisites
+### 1. Clone the Repository
+```bash
+git clone https://github.com/nainadube/ASL_Trainer.git
+cd ASL_Trainer
+```
+
+### 2. Prerequisites
 - Python 3.9+ recommended
 
-### 2. Set Up Virtual Environment
+### 3. Set Up Virtual Environment
 ```bash
 python -m venv venv
 # Windows:
@@ -35,14 +41,14 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run Notebooks
+### 5. Run Notebooks
 ```bash
-jupyter notebook notebooks/day1_dataset_exploration.ipynb
+jupyter notebook notebooks/01_dataset_exploration.ipynb
 ```
 
 ---
