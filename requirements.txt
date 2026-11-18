@@ -1,0 +1,11 @@
+# Core Dependencies for SignSense AI
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+mediapipe
+scikit-learn
+jupyter
+ipykernel
+
